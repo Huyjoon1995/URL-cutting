@@ -18,8 +18,6 @@ while ($pos > -1)
 
   { $pos=index($data,'<loc>');
 
-##print "TEST Pt #L1: ", length($data), " : ",$pos,"\n";
-
     if ($pos < 0)
 
       {last;}
@@ -37,7 +35,6 @@ while ($pos > -1)
     $add = ".myshoptify";
     $data = $data. $add;
     $data   
-##    print $output, "\r\n";
 
   }
 
